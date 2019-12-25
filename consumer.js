@@ -12,7 +12,7 @@ async function consume() {
         const result = await channel.assertQueue(queue);
 
         channel.consume(queue, message => {
-            console.log(`Consuming: ${JSON.parse(message.content.toString())}`);
+            console.log(`Consuming: ${message.content.toString()}`);
         })
         console.log("Waiting for messages...")
     } catch (e) {
