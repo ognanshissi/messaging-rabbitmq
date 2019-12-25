@@ -14,7 +14,7 @@ docker run --name rabbitmq -p 5672:5672 rabbitmq
 ## Run
 Once you have the  `rabbitmq server ` up and running, clone the project .
 ```console
-git clone http://github.com/ognanshissi/rabbitmq-starter
+git clone  https://github.com/ognanshissi/messaging-rabbitmq.git
 ```
 
 - Install packages
