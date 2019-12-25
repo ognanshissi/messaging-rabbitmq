@@ -13,6 +13,8 @@ async function consume() {
 
         channel.consume(queue, message => {
             console.log(`Consuming: ${message.content.toString()}`);
+            // after consuming the message 
+            channel.ack(message);
         })
         console.log("Waiting for messages...")
     } catch (e) {

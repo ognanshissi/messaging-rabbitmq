@@ -1,6 +1,6 @@
 # Rabbitmq
 
-publishing message and consuming message, good tool to setup a microservice 
+publishing message and consuming message
 
 ## Installation
 - Install `rabbitmq server` using docker, it is simple and fast  you just need to run the command bellow
